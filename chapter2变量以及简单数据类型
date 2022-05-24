@@ -1,0 +1,25 @@
+2.1
+	message="Hello pPython world"
+	print(message)
+
+2.2.1
+变量名只能包含字母，数字以及下划线；变量名可以用字母或下划线开头。变量名可以用下划线代表空格
+
+2.3字符串
+name.tilte()即把赋予变量执行title的操作,title()将首字母进行大写
+	name=“ada lovelace”
+	print（name.title()）
+	Ada Lovelace
+name.upper & name.lower是将字符串全部改成大些或全部小写
+使用“+”将两个字符串进行连接
+使用“\t”将其进行 tab ；使用“\n”则是新建一行；“\n\t”则是将切换到下一行并且进行tab
+删除空白：使用.rstrip()将删除字符串开头以及末尾没有空白；删除开头空白可以用：“lstrip()”
+
+2.4数字
+其实就是一些数学符号的运用而已
+
+2.5注释
+#即用来解释代码
+
+2.6 python之禅
+建议写注释。让其易于理解
