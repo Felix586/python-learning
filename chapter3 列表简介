@@ -1,1 +1,29 @@
+3.1 关于列表的定义 
+  list 一般用[]这个符号并且用逗号“ ， ”来个隔开元素
+  bicycles=["trek",'cannondale","readline","specilaized"]
+  访问元素：print(bicycles[0]))
+          trek
+          print(bicycles[0].title())
+          Trek
+ 访问列表中第一个元素是 0而不是1  0=trek, 1=cannondale; -1 =specilaized
+ 
+ 3.2修改，添加和删除元素
+    修改元素：bicycles=["trek","cannondale","readline","specilaized"]
+            bicycles[0]="human"
+            
+            print(bicycles)
+            ["human","cannondale","readline","specilaized"]
+   列表末尾添加元素： append.()
+   在列表任意位置添加新元素：insert() ; insert(0,"people")--["people","human","cannondale","readline","specilaized"]
+   在列表删除任意位置的元素： del bicycles[1] --["human","readline","specilaized"]
+   删除列表末尾的元素：bicycles.pop()
+   两者的区别即：删除列表中的元素后，而且不在使用则是使用del 语句；如果是删除该元素还想着继续使用的话，使用pop（）
+   当不知道删除元素所属位置时：可以使用 remove('human')，来直接删除对应元素
+   
+   3.3组织列表
+      sort（）进行字母排序；reverse=True则进行反向排序--name.sort(reverse=True)
+      sorted()则是进行临时字母排序，不影响原先列表的顺序
+      将对应列表将其反转--name.reverse()
+      确认列表的长度--len（）
 
+          
